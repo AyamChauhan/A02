@@ -3,26 +3,25 @@
 
 This tutorial provides guide on how to set up Github
 
----
 
-### Step 1: Install the  Software
+Step 1: Install the  Software
 download these tools: 
 Git
 VS Code
 
- Step 2: Set Up Git Globally
-Open your terminal (Mac) or Command Prompt/Git Bash (Windows) and configure your identity:
+Step 2: Set Up Git Globally
+Open your terminal if you have mac or Command Prompt/Git Bash for a windows and configure your identity:
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
 ```
 
-### Step 3: Open Your Project in VS Code
-1. Open VS Code
-2. Select **File > Open Folder** and choose the directory where you want to keep your project.
-3. Open the built-in terminal in VS Code by selecting **Terminal > New Terminal**.
+step 3: Open Your Project in VScode
+1. Open Vscode
+2. Select File > Open Folder and choose the directory where you want to keep your project.
+3. Open the built-in terminal in Vscode by selecting Terminal > New Terminal
 
-### Step 4: Clone Your GitHub Repository
+Step 4: Clone Your GitHub Repository
 1. Copy your repository URL from GitHub
 2. Run the command in VScode terminal:
    ```bash
@@ -34,7 +33,7 @@ git config --global user.email "your-email@example.com"
    ```
 
 Step 5: Make Changes and Save (Commit)
-1. Open or create the `README.md` file inside VScode
+1. Open or create the README.md file inside VScode
 2. Edit the document or add content.
 3. Stage your changes by tracking them:
    ```bash
@@ -53,7 +52,7 @@ git push origin main
 
 ---
 
-## Part 2: Glossary of Terms
+Glossary of Terms
 
 Branch: A parallel version of a repository that diverges from the main working project, allowing you to make changes without affecting the primary source code.
 Clone: A full duplicate copy of a remote target repository downloaded locally onto your computer.
